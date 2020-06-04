@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.LinkedList; 
 import java.util.ListIterator; 
   
-public class LinkedListDemo { 
+public class LinkedListIteratorOrnegi { 
     public static void main(String args[]) 
     { 
         // Boş bir LinkedList oluşturuyorum
@@ -11,7 +11,7 @@ public class LinkedListDemo {
   
         // Listeye eleman eklemek için add() metodunu kullanıyorum 
         list.add("Merhaba"); 
-        list.add("Benim"); 
+        list.add("benim"); 
         list.add("adım"); 
         list.add("Karahan"); 
         list.add("Sarıoğlu"); 
@@ -25,7 +25,7 @@ public class LinkedListDemo {
         // Oluşturulan listeyi belirlediğim indeksten itibaren yazdırıyorum 
         System.out.println("Listem şu şekildedir:"); 
         while(list_Iter.hasNext()){ 
-           System.out.println(list_Iter.next()); 
+        System.out.println(list_Iter.next()); 
         } 
     } 
 }
